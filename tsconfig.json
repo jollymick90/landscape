@@ -1,7 +1,6 @@
 {
-    
     "compilerOptions": {
-        "rootDir": "ts",
+        "rootDir": "src/app",
         "outDir": "dist",
         "target": "es2019",
         "lib": [

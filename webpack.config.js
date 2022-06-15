@@ -2,9 +2,9 @@ const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 module.exports = {
-
+    mode: "development",
     entry: {
-        main: "./ts/src/main.ts",
+        main: "./src/app/main.ts",
     },
     output: {
         path: path.resolve(__dirname, 'build'),
@@ -24,7 +24,7 @@ module.exports = {
         new CopyWebpackPlugin(
             {
                 patterns: [
-                    { from: "./html" },
+                    { from: "./src/public" },
                 ]
             }
         )
