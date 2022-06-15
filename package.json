@@ -1,0 +1,34 @@
+{
+  "name": "landscape-vanilla-ts",
+  "version": "1.0.0",
+  "description": "\"sample web landscape without framework\"",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "tscw": "tsc --watch",
+    "wp": "webpack",
+    "wpw": "webpack --watch",
+    "serve": "http-server build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jollymick90/landscape.git"
+  },
+  "author": "jollymick90",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jollymick90/landscape/issues"
+  },
+  "homepage": "https://github.com/jollymick90/landscape#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/lodash": "^4.14.182",
+    "copy-webpack-plugin": "^11.0.0",
+    "http-server": "^14.1.1",
+    "lodash": "^4.17.21",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.3",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
